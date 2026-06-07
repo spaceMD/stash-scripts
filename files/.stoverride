@@ -1,0 +1,9 @@
+name: 油价
+tiles:
+  - name: youjia
+    icon: 'car'
+    backgroundColor: '#c932a9'
+    argument: 'provname='
+script-providers:
+  youjia:
+    url: https://raw.githubusercontent.com/spaceMD/stash-scripts/main/files/oil.js
