@@ -1,9 +1,13 @@
 name: 油价
+desc: 油价面板
 tiles:
   - name: youjia
-    icon: 'car'
-    backgroundColor: '#c932a9'
-    argument: 'provname='
+    type: script
+    script: youjia
+    icon: car
+    backgroundColor: "#c932a9"
+    argument: "provname="
+
 script-providers:
   youjia:
     url: https://raw.githubusercontent.com/spaceMD/stash-scripts/main/files/oil.js
